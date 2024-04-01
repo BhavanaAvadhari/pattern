@@ -1,0 +1,8 @@
+for row in range(0,5,1):
+  for col in range(0,9,1):
+    if((col+row==8) or (col-row==0)):
+      print("*",end=" ")
+    else:
+      print(" ",end=" ")
+  print()
+  
